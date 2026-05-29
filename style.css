@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+  background-color: #f9f9f9;
+  font-family: "Roboto";
+}
+  .nav-bar {
+    background-color: white;
+    width: 100%;
+    height: 174px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .links {
+    display: flex;
+    gap: 46px;
+    margin-top: 87px;
+    margin-right: 80px;
+    margin-bottom: 37px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Condensed";
+  }
+  .first-image {
+    height: 51px;
+    width: 180px;
+    margin-top: 85px;
+    margin-bottom: 38px;
+    margin-left: 80px;
+    object-fit: cover;
+  }
+  a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500px;
+    color: black;
+  }
+  .btn1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    height: 50px;
+    width: 182px;
+    border-radius: 5.95px;
+    border: none;
+    background-color: rgba(117, 191, 122, 1);
+  }
+  .hero-section {
+    display: flex;
+    margin-top: 54px;
+    margin-right: 142px;
+    margin-left: 80px;
+  
+  }
+  .sec-1 , .sec-2{
+    width: 50%;
+  }
+  .sec-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-head {
+    font-size: 45px;
+    font-weight: 800px;
+    margin-top: 108px;
+    margin-bottom: 27px;
+    margin-right: 100px;
+  }
+  .first-para {
+    font-size: 24px;
+    font-weight: 500px;
+    margin-top: 30px;
+    margin-right: 180px;
+  }
+  .btn {
+    margin-top: 88px;
+    width: 260px;
+    height: 66.77px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-size: 24px;
+    padding-left: 28px;
+    font-weight: 800px;
+    text-align: center;
+  }
+  .buttons {
+    display: flex;
+    gap: 30px;
+    margin-right: 110px;
+  }
+  .sec-image{
+     height: 100%;
+    object-fit: cover;
+  }
+
+
+.green-section {
+  display: flex;
+  width: 1230px;
+  height: 166px;
+  margin-top: 86px;
+  margin-left: 80px;
+  margin-right: 1000px;
+  background-color: #75BF7A;
+  border-radius: 10px;
+
+  
+}
+.green-section > p{
+  margin: 55px   55px 72px;
+  font-size: 24.6px;
+  color: white;
+  font-weight: 600;
+  width: 246px;
+  height: 56px;
+}
+.input{
+  width: 480px;
+  height: 67px;
+  margin: 50px 11px 50px 20px;
+  border-radius: 4.39px;
+  font-size: 20px;
+  padding: 38px 0px 29px 35px;
+  border: none;
+  color: #DADADA;
+}
+.apply{
+  width: 250px;
+  height: 67px;
+  margin-top: 50px;
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  font-weight: 00;
+  border-radius: 4.39px;
+  background-color: #000000;
+  border: none;
+}
