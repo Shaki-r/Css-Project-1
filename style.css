@@ -80,21 +80,24 @@
   }
   .btn {
     margin-top: 88px;
-    width: 260px;
-    height: 66.77px;
+    width: 220px;
+    height: 66px;
     border-radius: 5px;
     border: none;
     background-color: #000000;
     color: white;
     font-size: 24px;
-    padding-left: 28px;
     font-weight: 800px;
     text-align: center;
   }
+  span{
+  margin-right: 10px;
+}
+
   .buttons {
     display: flex;
     gap: 30px;
-    margin-right: 110px;
+    margin-right: 10px;
   }
   .sec-image{
      height: 100%;
@@ -130,7 +133,6 @@
   font-size: 20px;
   padding: 38px 0px 29px 35px;
   border: none;
-  color: #DADADA;
 }
 .apply{
   width: 250px;
@@ -143,4 +145,26 @@
   border-radius: 4.39px;
   background-color: #000000;
   border: none;
+}
+.sec-head{
+  font-size: 46.39px;
+  font-weight: 800px;
+  text-align: center;
+  margin-top: 128px;
+  width: 415px;
+  height: 51px;
+}
+.sec-para{
+  font-size: 24px;
+  margin-top: 23px;
+  text-align: center;
+  width: 620px;
+  height: 96px;
+  color: #9E9DA2;
+}
+.head-para{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
