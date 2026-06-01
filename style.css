@@ -107,7 +107,7 @@
 
 .green-section {
   display: flex;
-  width: 1230px;
+  width: 1260px;
   height: 166px;
   margin-top: 86px;
   margin-left: 80px;
@@ -131,7 +131,7 @@
   margin: 50px 11px 50px 20px;
   border-radius: 4.39px;
   font-size: 20px;
-  padding: 38px 0px 29px 35px;
+  padding: 38px 0px 38px 35px;
   border: none;
 }
 .apply{
@@ -168,3 +168,61 @@
   justify-content: center;
   align-items: center;
 }
+.circle-sec-parent{
+  display: flex;
+  margin-left: 190px;
+  margin-right: 190px;
+  margin-top: 99px;
+}
+.n-img{
+  width: 60px;
+  height: 60px;
+}
+.circle-sec{
+  background-color: #75BF7A;
+  min-width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.ctrl-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-sec-head{
+  font-size: 20px;
+  font-weight: 800px;
+  line-height: 50.35px;
+}
+.circle-sec-para{
+  font-size: 20px;
+  color: #9E9DA2;
+  line-height: 26px;
+}
+.class2{
+  text-align: right;
+}
+.image{
+  display: flex;
+  justify-content: flex-end;
+}
+.n3sec{
+  margin-top: 70px;
+}
+.n4sec{
+  margin-top: 100px;
+}
+.right-sec,.left-sec{
+  width:50%;
+}
+.mobile-img{
+  height: 560px;
+  object-fit: cover;
+  margin-top: -80px;
+  margin-left: 62px;
+}
+
+
+
