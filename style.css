@@ -221,3 +221,23 @@ span {
   margin-top: -80px;
   margin-left: 62px;
 }
+
+.dot-img{
+  width: 65px;
+  height: 12px;
+  margin-top: 139px;
+}
+.p-image{
+  text-align: center;
+}
+.tere-benifits{
+  text-align: center;
+  margin-top: 87.91px;
+  font-size: 46.39px;
+  font-weight: 800px;
+}
+.flexible{
+  display: flex;
+  
+}
+
