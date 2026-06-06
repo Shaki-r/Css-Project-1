@@ -17,12 +17,15 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.nav-controller{
+  border: 2px solid black;
+}
 .links {
   display: flex;
   gap: 46px;
-  margin-top: 87px;
+
   margin-right: 80px;
-  margin-bottom: 37px;
+  
   justify-content: center;
   align-items: center;
   font-family: "Roboto Condensed";
@@ -30,8 +33,7 @@ body {
 .first-image {
   height: 51px;
   width: 180px;
-  margin-top: 85px;
-  margin-bottom: 38px;
+ 
   margin-left: 80px;
   object-fit: cover;
 }
@@ -282,6 +284,7 @@ a {
   margin-top: 10px;
 }
 /* Frame image head and para control */
+
 .frame-para{
   margin-left: 46px;
   font-size: 22px;
@@ -297,15 +300,22 @@ a {
   margin-left: 38px;
 }
 /* styling clock image */
+
 .clock-sec{
   display: flex;
   justify-content: space-between;
 }
+.money-container{
+  display: flex;
+  justify-content: flex-end;
+
+   margin-top: 52px;
+   margin-right: 80px;
+}
 .seniour1{
-  margin-left: 200px;
+ 
   width: 1060px;
   height: 304px;
-  margin-top: 52px;
   border-radius:10px;
   background-color: #FFFFFF; 
 }
@@ -403,10 +413,28 @@ a {
     .para-sen-cont{
       display: flex;
       justify-content: center;
-      align-items: center;
+    
       width: 100%;
+  
     }
     .last-para{
       color: #75BF7A;
       font-weight: 400px;
     }
+   /* Normal state mein koi layout change nahi hoga */
+.btn-shadow{
+    /* Aapki apni purani formatting yahan rahegi */
+    transition: box-shadow 0.1s ease, background-color 0.1s ease; 
+}
+
+/* Hover karne par (Optional: Click se pehle thoda glow) */ 
+.btn-shadow:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Jab click karein (Sari formatting same rahegi, bas click feel aayegi) */
+.btn-shadow:active {
+    background-color: #121212 !important; /* Halka sa gray-black jisse click detect ho */
+    box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.8), 
+                0 0 0 1px rgba(255, 255, 255, 0.1); /* Andar shadow aur halka border effect */
+}
