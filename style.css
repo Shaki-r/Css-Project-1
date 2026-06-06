@@ -3,10 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto";
 }
 body {
   background-color: #f9f9f9;
-  font-family: "Roboto";
+  
 }
 .nav-bar {
   background-color: white;
@@ -77,20 +78,21 @@ a {
   font-weight: 500px;
   margin-top: 30px;
   margin-right: 180px;
+  width: 100%;
+  color: #9E9DA2;
 }
-.btn {
+.btn{
   margin-top: 88px;
   width: 220px;
   height: 66px;
   border-radius: 5px;
-  border: none;
   background-color: #000000;
   color: white;
   font-size: 24px;
-  font-weight: 800px;
-  text-align: center;
+  font-weight: bold;
+
 }
-span {
+.btn-span {
   margin-right: 10px;
 }
 
@@ -100,13 +102,13 @@ span {
   margin-right: 10px;
 }
 .sec-image {
-  height: 100%;
+  height: 97%;
   object-fit: cover;
 }
 
 .green-section {
   display: flex;
-  width: 1260px;
+  width: 89%;
   height: 166px;
   margin-top: 86px;
   margin-left: 80px;
@@ -124,16 +126,15 @@ span {
 }
 .input {
   width: 480px;
-  height: 67px;
   margin: 50px 11px 50px 20px;
   border-radius: 4.39px;
   font-size: 20px;
-  padding: 38px 0px 38px 35px;
+  padding: 35px 0px 35px 35px;
   border: none;
 }
 .apply {
   width: 250px;
-  height: 67px;
+  height: 70px;
   margin-top: 50px;
   font-size: 22px;
   text-align: center;
@@ -158,6 +159,7 @@ span {
   width: 620px;
   height: 96px;
   color: #9e9da2;
+ 
 }
 .head-para {
   display: flex;
@@ -236,8 +238,175 @@ span {
   font-size: 46.39px;
   font-weight: 800px;
 }
+/* flexible image styling and Frame section styling both*/
+.seniour{
+  margin-left: 80px;
+  margin-top: 52px;
+  width: 1060px;
+  height: 304px;
+  border-radius: 10px;
+  background-color: #FFFFFF; 
+}
+.flex-sec{
+  display: flex;
+  justify-content: space-between;
+  height: 304px;
+}
 .flexible{
   display: flex;
+  align-items: center;
+}
+.flexible>img{
+  margin-right:110px;
+}
+.para{
+  display: flex;
+}
+.num{
+  font-size: 88px;
+  color: #75BF7A;
+}
+.flex-head{
+  font-size: 30px;
+  width: 218px;
+  margin-top: 15px;
+  margin-left: 10px;
   
 }
+.flex-para{
+  margin-left: 46px;
+  font-size: 22px;
+  font-weight: 500px;
+  color: #9E9DA2;
+  width: 385px;
+  margin-top: 10px;
+}
+/* Frame image head and para control */
+.frame-para{
+  margin-left: 46px;
+  font-size: 22px;
+  font-weight: 500px;
+  color: #9E9DA2;
+  width: 385px;
+  margin-top: 10px;
+  width: 500px;
+}
+.frame-head-para{
+  display: flex;
+  width: 500px;
+  margin-left: 38px;
+}
+/* styling clock image */
+.clock-sec{
+  display: flex;
+  justify-content: space-between;
+}
+.seniour1{
+  margin-left: 200px;
+  width: 1060px;
+  height: 304px;
+  margin-top: 52px;
+  border-radius:10px;
+  background-color: #FFFFFF; 
+}
+.clock-image{
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 110px;
+}
 
+.seiour-head-para{
+  align-items: center;  
+  margin-top: 40px;
+}
+.clock-head-para{
+  display: flex;
+  margin-right: 20px;
+}
+.num2{
+  font-size: 88px;
+  color: #75BF7A;
+}
+.clock-head{
+  font-size: 33.94px;
+  width: 235px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.clock-para{
+  font-size: 22px;
+  color: #9E9DA2;
+  width: 300px;
+  margin-top: 10px;
+}
+/* Footer section styling */
+.footer-cont{
+  background-color: #FFFFFF;
+ 
+  margin-top: 104px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 309px;
+  width: 100%px;
+  
+}
+.foot-controller{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+  width: 100%;
+}
+.friend-head{
+  font-size: 22px;
+  word-spacing: 1px;
+  margin-bottom: 21px;
+  margin-top: 60px;
+}
+.footer-paras{
+  font-size: 18px;
+  font-weight: 400px;
+  color: #8B8BA5;
+  margin-bottom: 15px;}
+  .footer-btns{
+    display: flex;
+   }
+   .footer-img{
+    margin-left: 50px;
+   }
+  .footer-btn1{
+    margin: 30px;
+    width: 178px;
+    height: 46px;
+    font-size: 16.89px;
+    padding-bottom: 5px;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+   }
+  .i{
+    color: white;
+    margin-right: 10px;
+    margin-top: 3px;
+  }
+    .line {
+        width: 100%; /* Ye line ki choraai screen ki aadhi (50%) kar de ga */
+        height: 1px;
+        border: none; /* By default border khatam kare ga */
+        margin-top: 5px;
+        background-color: #ECECEC;
+    }
+    
+    .para-sen-cont{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .last-para{
+      color: #75BF7A;
+      font-weight: 400px;
+    }
