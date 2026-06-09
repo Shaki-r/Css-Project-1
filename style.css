@@ -9,6 +9,9 @@ body {
   background-color: #f9f9f9;
   
 }
+.icon{
+  visibility: hidden;
+}
 .nav-bar {
   background-color: white;
   width: 100%;
@@ -135,7 +138,7 @@ a {
   border: none;
 }
 .apply {
-  width: 250px;
+  width: 245px;
   height: 70px;
   margin-top: 50px;
   font-size: 22px;
@@ -437,4 +440,164 @@ a {
     background-color: #121212 !important; /* Halka sa gray-black jisse click detect ho */
     box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.8), 
                 0 0 0 1px rgba(255, 255, 255, 0.1); /* Andar shadow aur halka border effect */
+}
+/* Responsive */
+@media (360px <= width <= 1000px) {
+  html ,body{
+   
+    
+  padding:0px !important;
+   width: 100% !important;
+   /* overflow: hidden !important; */
+   padding: 0px !important;
+   margin: 0px !important;
+  }
+  body{
+     display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Nav bar styling */
+  .nav-bar{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    gap: 198px;
+    background-color: transparent;
+    
+  
+    
+  }
+  .nav-bar>img{
+    margin: 0px;
+    width: 93px;
+    height: auto;
+    object-fit: cover;
+  }
+  .icon{
+    visibility: visible;
+    font-size: 25px;
+  }
+  .links{
+    display: none;
+  }
+ /* Herosection styling */
+.hero-section{
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 29.65px;
+    gap: 31.75px;
+ 
+}
+.sec-1{
+  all: unset;
+  order: 2;
+  display: flex;
+  flex-direction: column;
+ width: 320px;
+
+}
+.sec-1>h1{
+  
+  all: unset;
+   text-align: center;
+  font-size: 34px;
+  font-weight: bolder;
+}
+.sec-1>p{
+  font-size: 18px;
+  text-align: center;
+}
+.first-head,.first-para{
+  width: 320px;
+  height: auto;
+}
+
+.buttons{
+  all: unset;
+  display: flex;
+  gap: 18px;
+}
+.btn{
+  all: unset;
+  background-color: black;
+  color: white;
+  margin-top: 0px;
+  width: 151px;
+  height: 39px;
+  font-size: 15.31px;
+  padding-top: 0px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+.fa-brands {
+  
+  font-size: 20px !important;
+}
+.sec-2{
+  order: 1;
+}
+.sec-2>img{
+   all: unset;
+   width: 320px;
+   height: auto;
+   object-fit: cover;
+}
+/* Green scetion styling */
+.green-section{
+  margin: 0px;
+  margin-top: 66px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 249px;
+ 
+}
+.green-section>p{
+  margin: 0px;
+  font-size: 24.6px;
+}
+.input{
+  margin: 0px;
+  width: 280px;
+  padding: 0px;
+  text-align: center;
+  height: 48px !important;
+  margin-top: 25px;
+}
+.apply{
+  margin-top: 20px;
+  width: 280px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.head-para{
+  display: flex;
+  justify-content: center;
+  width: 320px !important;
+  margin-top: 44px;
+ 
+}
+.sec-head{
+  margin: 0px;
+  font-size: 24px;
+}
+.sec-para{
+  margin-top: 0px;
+  width: 319px;
+    font-size: 20px;
+   
+}
 }
