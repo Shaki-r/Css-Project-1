@@ -451,14 +451,13 @@ a {
 }
 
 /* Responsive */
-@media (360px <= width <= 1000px) {
+@media (250px <= width <= 1000px) {
   html,
-  body {
-    padding: 0px !important;
+  body { 
     width: 100% !important;
-    /* overflow: hidden !important; */
     padding: 0px !important;
     margin: 0px !important;
+    box-sizing: border-box;
   }
   body {
     display: flex;
