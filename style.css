@@ -852,5 +852,77 @@ a {
     width: 100%;
     margin: 0px;
   }
-
+  /* Footer Section Styling */
+  .footer-cont{
+    background-color: transparent;
+    width: 320px;
+    height: 447px;
+    margin-top: 54px;
+   display: flex;
+   justify-content: center;
+  }
+  .foot-controller{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-img{
+    margin: 0px;
+    width: 131px;
+    height: 37px;
+    object-fit: cover;
+    order: 1;
+  }
+  .footer-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 0px;
+    margin-top: 38.88px;
+    order: 2;
+    gap: 8.64px;
+  }
+  .footer-btn1{
+    margin: 0px;
+    width: 149px;
+    height: 38px;
+  }
+  .footer-head-para1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    order: 3;
+    margin-top: 47.51px;
+  }
+  .footer-head-para2{
+    display: none;
+  }
+  .friend-head{
+    margin: 0px;
+  }
+  .line{
+    display: none;
+  }
+  .para-sen-cont{
+    width: 257px;
+    margin: 0px;
+  }
+  .last-para{
+    color: #9E9DA2;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 46px;
+  }
+  .footer-paras{
+    margin: 0px;
+  }
+  .footer-paras1{
+    margin-top: 21px;
+  }
+  .footer-paras2{
+    margin-top: 15px;
+  }
   }
