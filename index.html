@@ -13,7 +13,7 @@
 
 <body>
   <nav class="nav-bar">
-    <img class="first-image" src="./logo.png" alt="logo" />
+    <img class="first-image" src="./images/logo.png" alt="logo" />
      <i class="fa-solid fa-bars icon" style="color: hsl(0, 0%, 4%);"></i>
     <div class="links">
       <a href="#">Home</a>
@@ -44,7 +44,7 @@
       </div>
     </section>
     <section class="sec-2">
-      <img class="sec-image" src="./image.png" alt="image" />
+      <img class="sec-image" src="./images/image.png" alt="image" />
     </section>
   </div>
   <section class="green-section">
@@ -62,15 +62,15 @@
       user account. when approved you may start driving.
     </p>
   </div>
-  <!-- Main Circle Section -->
+  <!-- Main Circle Section Html structure -->
 
-  <section class="circle-sec-parent">
+  <section class="circle-sec-parent main-structure">
 
     <!-- left section -->
 
     <div class="left-sec">
       <div class="image">
-        <img src="./N1.png" class="n-img" style="margin-top: 15px;" />
+        <img src="./images/N1.png" class="n-img" style="margin-top: 15px;" />
       </div>
       <h1 class="circle-sec-head class2">REQUEST A RIDE</h1>
       <p class="circle-sec-para class2">
@@ -79,32 +79,33 @@
       </p>
       <div class="n3sec">
         <div class="image">
-          <img src="./N3.png" class="n-img" />
+          <img src="./images/N3.png" class="n-img" />
         </div>
         <h1 class="circle-sec-head class2">INSTANT NOTIFICATIONS</h1>
         <p class="circle-sec-para class2">
           Get instant notifications for your rides and be in contact with fellow
           riders all the time
         </p>
+      
         <!-- center section -->
       </div>
     </div>
     <div class="ctrl-sec">
       <div class="circle-sec">
-        <img src="./Mobile.png" alt="Mobile" class="mobile-img">
+        <img src="./images/Mobile.png" alt="Mobile" class="mobile-img">
       </div>
     </div>
-    <!-- right-section -->
-
+   
+        </div> 
     <div class="right-sec">
-      <img src="./N2.png" class="n-img" style="margin-top: 15px;" />
+      <img src="./images/N2.png" class="n-img" style="margin-top: 15px;" />
       <h1 class="circle-sec-head">POST A RIDE</h1>
       <p class="circle-sec-para">
         Going somewhere but hate to travel alone-&nbsp; just post your ride details
         and publish it
       </p>
       <div class="n4sec">
-        <img src="./N4.png" class="n-img" />
+        <img src="./images/N4.png" class="n-img" />
         <h1 class="circle-sec-head">CASHLESS PAYMENT</h1>
         <p class="circle-sec-para">
           Payment made easy by using your own Wallet - no more cash to carry
@@ -113,12 +114,66 @@
     </div>
     </div>
   </section>
-  <p class="p-image"><img src="./dots.png" class="dot-img"></p>
-  <h1 class="tere-benifits"><span style="color: #75BF7A;">TERE</span> BENEFITS</h1>
+
+
+<!-- Main Circle Section only media query -->
+
+  <section class="circle-sec-parent media-query">
+
+    <!-- left section -->
+      <div class="image order1 first">
+        <img src="./images/N1.png" class="n-img" style="margin-top: 15px;" />
+      
+      <h1 class="circle-sec-head class2 h1">REQUEST A RIDE</h1>
+      <p class="circle-sec-para class2 p1">
+        Have to reach office or going for shopping ? Just put your current
+        location and destination and search a ride that suits you
+      </p>
+      </div>
+       <div class="image order2 second">
+      <img src="./images/N2.png" class="n-img " style="margin-top: 15px;" />
+      <h1 class="circle-sec-head circle-sec-head-media h1" >POST A RIDE</h1>
+      <p class="circle-sec-para circle-sec-head-media p1">
+        Going somewhere but hate to travel alone-&nbsp; just post your ride details
+        and publish it
+      </p>
+      </div>
+        <!-- center section -->
+      
+      <div class="circle-sec order-1 ">
+        <img src="./images/Mobile.png" alt="Mobile" class="mobile-img">
+      </div>
+
+    
+        </div> 
+        <div class="right-sec n3sec order3 third">
+          <img src="./images/N3.png" class="n-img" />
+        <h1 class="circle-sec-head class2 h1 n3-head">INSTANT NOTIFICATIONS</h1>
+        <p class="circle-sec-para class2 p1 n3-para">
+          Get instant notifications for your rides and be in contact with fellow
+          riders all the time
+        </p>
+       </div>
+      
+      <div class="n4sec order4 fourth">
+        <img src="./images/N4.png" class="n-img" />
+        <h1 class="circle-sec-head h1">CASHLESS PAYMENT</h1>
+        <p class="circle-sec-para p1">
+          Payment made easy by using your own Wallet - no more cash to carry
+        </p>
+      </div>
+    </div>
+    </div>
+     <p class="p-image"><img src="./images/dots.png" class="dot-img"></p>
+  <div><h1 class="tere-benifits"><span style="color: #75BF7A;">TERE</span> BENEFITS</h1>
+  </section>
+  <!-- Media query end code only circle section -->
+  <p class="p-image"><img src="./images/dots.png" class="dot-img hide-media"></p>
+  <div><h1 class="tere-benifits"><span style="color: #75BF7A;">TERE</span> BENEFITS</h1></div>
 <!-- Clock Image Sections -->
  
-  <div class="seniour" >
-    <div class="flex-sec">
+  <div class="seniour first-seniour" >
+    <div class="flex-sec flex-sec-1">
       <div class="head-para">
         <section class="para">
           <p class="num">01.</p>
@@ -126,45 +181,54 @@
         </section>
         <p class="flex-para">You can decide when, and how much time you want to drive.</p>
       </div>
+      <p class="flex-para flex-para-media">You can decide when, and how much time you want to drive.</p>
       <div class="flexible">
-        <img src="./Frame.png" alt="flexible">
+        <img src="./images/Frame.png" alt="flexible" class="flexible-img">
       </div>
     </div>
-  </div>
- <!--  Frame image sections -->
+    </div>
+  
+ <!--  Money image sections -->
   <div class="money-container">
   <div class="seniour1">
     <div class="clock-sec">
-      <section class="clock-image">
-        <img src="./Frame (1).png" alt="">
-      </section>
+      <div class="clock-image">
+        <img src="./images/Frame (1).png" >
+      </div>
       <div class="seiour-head-para">
         <section class="clock-head-para">
-          <p class="num2">02.</p>
+          <p class="num2 ">02.</p>
           <p class="clock-head">Earnings</p>
         </section>
-
-        <p class="clock-para">By driving with tere you can
+        <div class="clock-para">
+        <p>By driving with tere you can
           earn more.</p>
       </div>
     </div>
+    <div class="clock-para clock-para1">
+        <p style="text-align: center;">You can decide when, and how much
+time you want to drive.</p>
+      </div>
   </div>
   </div>
   </div>
-</div>
+  
+  
   <!-- Frame Image Sections -->
-  <div class="seniour">
-    <div class="flex-sec">
+  <div class="seniour frame-seniour" >
+    <div class="flex-sec flex-sec2">
       <div class="head-para">
-        <section class="frame-head-para">
-          <p class="num">03.</p>
-          <p class="flex-head">Customer support 24/7</p>
-        </section>
+        <div class="frame-head-para frame-head-para1">
+          <p class="num num3">03.</p>
+          <p class="flex-head flex-head1">Customer support 24/7</p>
+        </div>
         <p class="frame-para">Tere is a local service provider and we are proud to support you in your local language.
           We are proud to be at your service 24/7!</p>
       </div>
-      <div class="flexible">
-        <img src="./Frame (3).png" alt="flexible">
+        <p class="frame-para frame-para1">You can decide when, and how much
+          time you want to drive.</p>
+      <div class="flexible flexible1">
+        <img src="./images/Frame (3).png" alt="flexible" class="flexible-img1">
       </div>
     </div>
   </div>
@@ -172,7 +236,7 @@
   <footer class="footer-cont">
     <div class="foot-controller" >
       <div class="footer-img">
-        <img src="./Group 3703.png">
+        <img src="./images/Group 3703.png">
       </div>
       <div class="footer-head-para1">
         <h2 class="friend-head">Be Our Friend</h2>
