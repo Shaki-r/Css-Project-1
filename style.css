@@ -451,15 +451,15 @@ a {
 }
 
 /* Responsive */
-@media (250px <= width <= 1000px) {
-  html,
-  body { 
-    width: 100% !important;
-    padding: 0px !important;
-    margin: 0px !important;
+@media (360px <= width <= 1000px) {
+ * {
     box-sizing: border-box;
-  }
+    max-width: 100%;
+ }
+ 
   body {
+   
+    margin: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -654,6 +654,7 @@ a {
   }
   .order3 {
     order: 3;
+    width: 320px;
   }
   .order4 {
     order: 4;
@@ -672,7 +673,6 @@ a {
     text-align: center;
   }
   .p1 {
-    width: 340px;
     font-size: 22px;
   }
   .h1 {
